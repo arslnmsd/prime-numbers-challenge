@@ -25,7 +25,13 @@ class PrintSumOfPrimeNumbersTests {
 		Assert.isTrue(array.length == 3, "Array length of first dimension is not satisfied");
 		Assert.isTrue(array[n - 1].length != 4, "Array length of second dimension is not satisfied");
 	}
-	
-	
+
+	@Test
+	void fillValueTest() {
+		int value = 4;
+		int[][] array = printSumOfPrimeNumbers.createNxNArray(6);
+		printSumOfPrimeNumbers.setValueAtArrayLocation(array, 0, 0, value);
+		Assert.isTrue(array[0][0] == 4, "Value is not same");
+	}
 
 }
