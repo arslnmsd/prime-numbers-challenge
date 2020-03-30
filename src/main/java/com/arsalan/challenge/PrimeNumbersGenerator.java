@@ -15,7 +15,7 @@ public class PrimeNumbersGenerator {
 		return candidate - 1;
 	}
 
-	private boolean isPrime(int num) {
+	boolean isPrime(int num) {
 		boolean prime = true;
 		int limit = (int) Math.sqrt(num);
 
