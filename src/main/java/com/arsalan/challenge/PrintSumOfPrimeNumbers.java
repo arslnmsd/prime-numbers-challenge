@@ -10,9 +10,8 @@ public class PrintSumOfPrimeNumbers {
 	private PrimeNumbersGenerator primeNumbersGenerator;
 
 	public void main(String[] args) {
-		int n;
-
 		try {
+			int n;
 			if (args.length > 0) {
 				n = Integer.valueOf(args[0]);
 				int[][] array = createNxNArray(n);
