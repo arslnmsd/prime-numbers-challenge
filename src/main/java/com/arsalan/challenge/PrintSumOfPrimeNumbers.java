@@ -28,7 +28,7 @@ public class PrintSumOfPrimeNumbers {
 			}
 
 		} catch (NumberFormatException nfe) {
-			System.out.println("argument is not a number");
+			System.out.println("first argument is not a number");
 		}
 	}
 
