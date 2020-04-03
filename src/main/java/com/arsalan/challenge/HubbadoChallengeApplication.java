@@ -22,7 +22,7 @@ import com.arsalan.challenge.generator.NumbersGenerator;
 public class HubbadoChallengeApplication implements CommandLineRunner {
 
 	@Autowired
-	private PrintFancyArray printfancyArray;
+	private PrintFancyMatrix printfancyArray;
 
 	@Autowired
 	private Map<String, NumbersGenerator> generatorsMap;

@@ -6,7 +6,7 @@ import com.arsalan.challenge.functions.ValueFinderFunction;
 import com.arsalan.challenge.generator.NumbersGenerator;
 
 @Service
-public class PrintFancyArray {
+public class PrintFancyMatrix {
 
 	public void main(int rows, int columns, NumbersGenerator generator, ValueFinderFunction valueFinderFunction) {
 		int[][] array = createRxCArray(rows, columns);
@@ -30,6 +30,7 @@ public class PrintFancyArray {
 		return new int[rows][columns];
 	}
 
+	@Deprecated
 	int[][] createNxNArray(int n) {
 		return new int[n][n];
 	}
