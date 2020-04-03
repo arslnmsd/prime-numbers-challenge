@@ -38,8 +38,8 @@ public class HubbadoChallengeApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		Options options = new Options();
-		options.addRequiredOption("r", "rows", true, "number of rows");
-		options.addRequiredOption("c", "columns", true, "number of columns");
+		options.addRequiredOption("r", "rows", true, "number of rows: integer");
+		options.addRequiredOption("c", "columns", true, "number of columns: integer");
 		options.addRequiredOption("g", "generator", true, "type of number generator: " + Generators.getValues());
 		options.addRequiredOption("f", "function", true, "function to apply: " + Functions.getValues());
 
